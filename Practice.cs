@@ -49,7 +49,7 @@ namespace ConsoleApp7
 
             //2.1 STRING to CHAR
             //char nameToString = name;                                    //IMPLICIT: NOT COMPILING
-            //char nametoString1 = (char)name;                              //EXPLICIT: NOT COMPILING
+            //char nametoString1 = (char)name;                             //EXPLICIT: NOT COMPILING
             char nameToString2 = Convert.ToChar(name);
 
             //2.2 STRING to BOOL
